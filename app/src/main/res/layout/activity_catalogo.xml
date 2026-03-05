@@ -9,7 +9,6 @@
     android:background="@color/black"
     tools:context=".Catalogo">
 
-    <!-- TITULO MOVIES -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +23,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/yellow"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"/>
 
         <View
@@ -33,20 +32,16 @@
             android:background="@color/yellow"
             android:layout_marginHorizontal="15dp"
             android:layout_marginTop="33dp"/>
-
     </LinearLayout>
 
-    <!-- GRID MOVIES -->
     <GridView
         android:id="@+id/movies_catalogo"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="290dp"
         android:numColumns="3"
         android:layout_marginTop="18dp"
         android:paddingHorizontal="6dp"/>
 
-    <!-- TITULO SERIES -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,19 +63,16 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/yellow"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"/>
-
     </LinearLayout>
 
-    <!-- GRID SERIES -->
     <GridView
-        android:id="@+id/mseries_catalogo"
+        android:id="@+id/series_catalogo"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="290dp"
         android:numColumns="3"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="10dp"
         android:paddingHorizontal="6dp"/>
 
 </LinearLayout>
